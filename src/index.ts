@@ -18,7 +18,8 @@ const { values } = parseArgs({
     },
     accessToken: {
       type: 'string',
-      short: 't'
+      short: 't',
+      default: ''
     },
     baseUrl: {
       type: 'string',
